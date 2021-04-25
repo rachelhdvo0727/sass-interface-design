@@ -1,0 +1,30 @@
+@import "./variables";
+@import "./kea-rest/index.scss";
+@import "./ws/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-link {
+  width: max-content;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 10% auto;
+
+  -webkit-box-shadow: 10px 10px 20px -1px rgba(204, 200, 204, 1);
+  -moz-box-shadow: 10px 10px 20px -1px rgba(204, 200, 204, 1);
+  box-shadow: 10px 10px 20px -1px rgba(204, 200, 204, 1);
+
+  * {
+    margin: 0.8rem auto;
+  }
+}

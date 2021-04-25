@@ -1,0 +1,27 @@
+h2 {
+  font-size: $font-size-base;
+}
+html {
+  font-family: $sans-serif;
+}
+header {
+  background-color: $primary-color;
+}
+nav {
+  background-color: $secondary-color;
+}
+
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: $secondary-color;
+  color: white;
+}

@@ -1,0 +1,25 @@
+@import "../variables";
+
+/* BODY */
+#contents > article.article {
+  margin: 1rem $spaces-left-right;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+#ws-general {
+  p {
+    margin: 1rem auto;
+  }
+}
+article#ws-macbeth {
+  border-radius: 10px;
+  background-color: $third-pink;
+  padding: 1rem;
+
+  p {
+    font-family: $serif;
+    color: white;
+  }
+}

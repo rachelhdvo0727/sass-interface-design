@@ -1,0 +1,416 @@
+/*--- TOP  ---*/
+header {
+  width: 100%;
+}
+header ul.pages-nav {
+  list-style-type: none;
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+}
+header ul.pages-nav li {
+  margin: 0.5rem;
+}
+header .title {
+  background-color: #e9424f;
+}
+header .title h1 {
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.menu {
+  background-color: #263549;
+}
+nav.menu ul {
+  text-align: center;
+  padding: 0rem 1rem;
+}
+nav.menu ul li {
+  padding: 0.3rem;
+}
+nav.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav.menu ul li:first-child, nav.menu ul li:nth-child(2) {
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  font-size: calc(13px + 0.3vw);
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #e9424f;
+}
+
+nav {
+  background-color: #263549;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: #263549;
+  color: white;
+}
+
+/*--- FOOTER SECTION ---*/
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+section {
+  margin: 1.2rem 1rem 5rem;
+}
+
+/*--- HOME SECTION ---*/
+#home ul li {
+  color: #e9424f;
+  font-weight: bold;
+}
+
+#home p {
+  text-align: justify;
+}
+
+.image {
+  margin: 0 0 0.8rem 0;
+}
+
+blockquote {
+  background-color: lightgrey;
+  margin: 1rem 0 1rem 2rem;
+  padding: 1rem;
+}
+blockquote p {
+  margin-bottom: 1rem;
+}
+blockquote cite {
+  font-style: normal;
+  padding-left: 0.8rem;
+}
+
+ul.qualities {
+  margin: auto 1rem;
+}
+ul.qualities li {
+  margin: 0.5rem;
+}
+
+/*--- MENU SECTION ---*/
+#menu {
+  /* margin-top: 3rem; */
+  margin-bottom: 3rem;
+}
+
+.container {
+  background-color: lightyellow;
+  border: 1px black solid;
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  text-align: justify;
+}
+.container * {
+  margin: 0.5rem 0;
+}
+
+.price {
+  background-color: #e9424f;
+  color: white;
+  font-weight: bold;
+  border: 0.3rem solid #263549;
+  width: max-content;
+  padding: 3px;
+}
+
+/*--- CONTACT SECTION ---*/
+figure {
+  border: 1px black solid;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.phone-no {
+  margin: 1rem 0;
+}
+
+.phone-no a {
+  font-weight: bold;
+  color: black;
+}
+
+fieldset {
+  padding: 1rem;
+}
+
+fieldset * {
+  display: block;
+}
+
+fieldset button {
+  margin: 0.5rem 1rem;
+}
+
+.field {
+  margin: 0 0 0.5rem 0;
+  display: block;
+}
+
+.info {
+  margin: 1rem 0 0 0;
+}
+
+@media (min-width: 699px) {
+  nav.menu ul {
+    display: -webkit-inline-box;
+    text-align: inherit;
+  }
+  nav.menu ul li:first-child,
+nav.menu ul li:nth-child(2) {
+    border-bottom: unset;
+  }
+
+  fieldset * {
+    display: inline-block;
+  }
+
+  label {
+    width: 8rem;
+  }
+
+  .info {
+    width: 100px;
+  }
+
+  .info label {
+    width: 10rem;
+  }
+
+  .info textarea {
+    width: 500px;
+  }
+}
+@media (min-width: 949px) {
+  #home,
+.container,
+#contact {
+    display: block;
+  }
+
+  .image,
+.container img,
+figure {
+    float: right;
+  }
+
+  /*--- HOME SECTION ---*/
+  .image {
+    width: 35%;
+  }
+
+  #text-container {
+    width: 63%;
+  }
+
+  /*--- MENU SECTION ---*/
+  .container {
+    height: 300px;
+  }
+
+  .container img {
+    width: 30%;
+    margin-top: 0;
+  }
+
+  .dish-text {
+    width: 65%;
+  }
+
+  /*--- CONTACT SECTION ---*/
+  figure {
+    width: 40%;
+  }
+
+  .col-left {
+    width: 58%;
+  }
+
+  .info textarea {
+    width: 540px;
+  }
+}
+@media (min-width: 1499px) {
+  /*--- MENU SECTION ---*/
+  #menu {
+    padding: 0 29vw 0;
+  }
+
+  .container {
+    width: 800px;
+  }
+
+  .container img {
+    width: 45%;
+  }
+
+  .dish-text {
+    width: 52%;
+  }
+}
+/* TOP */
+header ul.pages-nav {
+  list-style-type: none;
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+}
+header ul.pages-nav li {
+  margin: 0.5rem;
+}
+header .ws-title {
+  background-color: #872260;
+}
+header h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0.5rem calc(0.5rem + 0.8vw);
+}
+header .ws-menu {
+  background-color: #e18abc;
+}
+
+ul#menu-list {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 600;
+}
+ul#menu-list li {
+  border-bottom: solid #872260 0.5px;
+  padding: 5px 0;
+}
+ul#menu-list li a {
+  text-decoration: none;
+  color: #872260;
+}
+
+/* BOTTOM */
+footer#ws-footer {
+  background-color: #872260;
+  text-align: center;
+  color: white;
+  padding: 0.3rem 0;
+}
+
+/* BODY */
+#contents > article.article {
+  margin: 1rem calc(0.5rem + 0.8vw);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+#ws-general p {
+  margin: 1rem auto;
+}
+
+article#ws-macbeth {
+  border-radius: 10px;
+  background-color: #b9528e;
+  padding: 1rem;
+}
+article#ws-macbeth p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 699px) {
+  ul#menu-list > li {
+    width: 49%;
+    float: left;
+  }
+
+  ul#menu-list::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul#menu-list li:nth-child(odd) {
+    border-right: 1px solid #872260;
+  }
+}
+@media (min-width: 949px) {
+  ul#menu-list {
+    text-align: left;
+    padding-left: 2rem;
+  }
+  ul#menu-list li,
+ul#menu-list li:nth-child(odd) {
+    border: unset;
+    width: 13%;
+    float: left;
+  }
+
+  section#contents {
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    gap: 1rem;
+    justify-items: flex-start;
+  }
+  section#contents article.article {
+    justify-self: stretch;
+  }
+
+  #ws-macbeth {
+    height: max-content;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-link {
+  width: max-content;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 10% auto;
+  -webkit-box-shadow: 10px 10px 20px -1px #ccc8cc;
+  -moz-box-shadow: 10px 10px 20px -1px #ccc8cc;
+  box-shadow: 10px 10px 20px -1px #ccc8cc;
+}
+.container-link * {
+  margin: 0.8rem auto;
+}
+
+/*# sourceMappingURL=output.css.map */

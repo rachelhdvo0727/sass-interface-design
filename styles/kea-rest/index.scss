@@ -1,0 +1,93 @@
+@import "./top";
+@import "./general";
+@import "./bottom";
+@import "./body";
+
+@media (min-width: 699px) {
+  nav.menu ul {
+    display: -webkit-inline-box;
+    text-align: inherit;
+
+    li:first-child,
+    li:nth-child(2) {
+      border-bottom: unset;
+    }
+  }
+
+  fieldset * {
+    display: inline-block;
+  }
+  label {
+    width: 8rem;
+  }
+  .info {
+    width: 100px;
+  }
+  .info label {
+    width: 10rem;
+  }
+  .info textarea {
+    width: 500px;
+  }
+}
+
+@media (min-width: 949px) {
+  #home,
+  .container,
+  #contact {
+    display: block;
+  }
+  .image,
+  .container img,
+  figure {
+    float: right;
+  }
+
+  /*--- HOME SECTION ---*/
+  .image {
+    width: 35%;
+  }
+
+  #text-container {
+    width: 63%;
+  }
+
+  /*--- MENU SECTION ---*/
+  .container {
+    height: 300px;
+  }
+  .container img {
+    width: 30%;
+    margin-top: 0;
+  }
+  .dish-text {
+    width: 65%;
+  }
+
+  /*--- CONTACT SECTION ---*/
+  figure {
+    width: 40%;
+  }
+  .col-left {
+    width: 58%;
+  }
+  .info textarea {
+    width: 540px;
+  }
+}
+
+@media (min-width: 1499px) {
+  /*--- MENU SECTION ---*/
+  #menu {
+    padding: 0 29vw 0;
+  }
+  .container {
+    width: 800px;
+  }
+  .container img {
+    width: 45%;
+  }
+  .dish-text {
+    width: 52%;
+  }
+}

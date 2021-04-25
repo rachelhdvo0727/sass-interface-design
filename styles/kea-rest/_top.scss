@@ -1,0 +1,50 @@
+@import "../variables";
+
+/*--- TOP  ---*/
+header {
+  width: 100%;
+
+  ul.pages-nav {
+    list-style-type: none;
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    li {
+      margin: 0.5rem;
+    }
+  }
+
+  .title {
+    background-color: $primary-color;
+
+    h1 {
+      color: white;
+      padding: 0.5rem 1rem;
+      font-family: $sans-serif;
+    }
+  }
+}
+
+nav.menu {
+  background-color: $secondary-color;
+
+  ul {
+    text-align: center;
+    padding: 0rem 1rem;
+
+    li {
+      padding: 0.3rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      &:first-child,
+      &:nth-child(2) {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}

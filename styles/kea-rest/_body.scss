@@ -1,0 +1,94 @@
+section {
+  margin: 1.2rem 1rem 5rem;
+}
+
+/*--- HOME SECTION ---*/
+#home ul li {
+  color: $primary-color;
+  font-weight: bold;
+}
+#home p {
+  text-align: justify;
+}
+
+.image {
+  margin: 0 0 0.8rem 0;
+}
+
+blockquote {
+  background-color: lightgrey;
+  margin: 1rem 0 1rem 2rem;
+  padding: 1rem;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  cite {
+    font-style: normal;
+    padding-left: 0.8rem;
+  }
+}
+
+ul.qualities {
+  margin: auto 1rem;
+
+  li {
+    margin: 0.5rem;
+  }
+}
+
+/*--- MENU SECTION ---*/
+#menu {
+  /* margin-top: 3rem; */
+  margin-bottom: 3rem;
+}
+.container {
+  background-color: lightyellow;
+  border: 1px black solid;
+  margin: 1rem 0 0 0;
+  padding: 0.5rem;
+  text-align: justify;
+  * {
+    margin: 0.5rem 0;
+  }
+}
+
+.price {
+  background-color: $primary-color;
+  color: white;
+  font-weight: bold;
+  border: 0.3rem solid $secondary-color;
+  width: max-content;
+  padding: 3px;
+}
+
+/*--- CONTACT SECTION ---*/
+figure {
+  border: 1px black solid;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+.phone-no {
+  margin: 1rem 0;
+}
+.phone-no a {
+  font-weight: bold;
+  color: black;
+}
+fieldset {
+  padding: 1rem;
+}
+fieldset * {
+  display: block;
+}
+fieldset button {
+  margin: 0.5rem 1rem;
+}
+.field {
+  margin: 0 0 0.5rem 0;
+  display: block;
+}
+.info {
+  margin: 1rem 0 0 0;
+}

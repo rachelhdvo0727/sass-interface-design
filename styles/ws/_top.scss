@@ -1,0 +1,41 @@
+@import "../variables";
+
+/* TOP */
+header {
+  ul.pages-nav {
+    list-style-type: none;
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    li {
+      margin: 0.5rem;
+    }
+  }
+  .ws-title {
+    background-color: $primary;
+  }
+  h1 {
+    color: white;
+    font-family: $serif;
+    padding: 0.5rem $spaces-left-right;
+  }
+  .ws-menu {
+    background-color: $secondary;
+  }
+}
+
+ul#menu-list {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 600;
+
+  li {
+    border-bottom: solid $primary 0.5px;
+    padding: 5px 0;
+
+    a {
+      text-decoration: none;
+      color: $primary;
+    }
+  }
+}

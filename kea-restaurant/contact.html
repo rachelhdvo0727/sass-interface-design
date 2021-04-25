@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/output.css" />
+    <title>Restaurant KEA</title>
+  </head>
+  <body class="contact">
+    <header>
+      <h1>Restaurant KEA</h1>
+      <nav class="menu">
+        <ul>
+          <li class="home"><a href="home.html">Home</a></li>
+          <li class="menu"><a href="menu.html">Menu</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <figure><img src="/assets/map.jpg" alt="restaurant location" /></figure>
+      <div class="col-left">
+        <p>Lygten 37 <br />2400 Copenhagen</p>
+        <p class="phone-no">
+          Phone no.: <a href="tel: 20 82 53 70">20 82 53 70</a>
+        </p>
+        <form method="POST" action="form.php">
+          <fieldset>
+            <legend>Contact form</legend>
+            <div class="field full-name">
+              <label for="full-name">Full name </label>
+              <input
+                id="full-name"
+                name="full-name"
+                type="text"
+                size="25"
+                pattern="^[A-Za-z-]+$"
+              />
+            </div>
+            <div class="field phone-num">
+              <label for="phone-num">Phone number</label>
+              <input id="phone-num" name="phone-num" type="text" size="25" />
+            </div>
+            <div class="field email">
+              <label>Email </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                size="25"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+            </div>
+            <div class="field persons">
+              <label for="persons"> Persons </label>
+              <input
+                id="persons"
+                name="persons"
+                type="number"
+                maxlength="3"
+                size="5"
+                min="1"
+                max="20"
+                pattern="^[1-9][0-9]?$|^20$"
+              />
+            </div>
+            <div class="field date-time">
+              <label for="date-time"> Date and time </label>
+              <input
+                id="date-time"
+                name="date-time"
+                type="datetime-local"
+                size="25"
+              />
+            </div>
+            <div class="field info">
+              <label for="info"> Further information </label>
+              <textarea id="info" name="info" rows="5" cols="33"></textarea>
+            </div>
+            <br />
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <small>&#169; 2021 KEA Web Development</small>
+    </footer>
+  </body>
+</html>
