@@ -4,30 +4,26 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 699px) {
-  ul#menu-list > li {
-    width: 49%;
-    float: left;
-  }
-  ul#menu-list::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  ul#menu-list li:nth-child(odd) {
-    border-right: 1px solid $primary;
+  ul#menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    li:nth-child(odd) {
+      border-right: 1px $primary solid;
+    }
   }
 }
 
 @media (min-width: 949px) {
   ul#menu-list {
+    display: inline-flex;
     text-align: left;
     padding-left: 2rem;
 
     li,
     li:nth-child(odd) {
       border: unset;
-      width: 13%;
-      float: left;
+      margin-right: 5rem;
     }
   }
 
